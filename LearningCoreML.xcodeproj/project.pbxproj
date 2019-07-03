@@ -14,6 +14,7 @@
 		A4D75EF422CB87C700C21566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D75EF222CB87C700C21566 /* LaunchScreen.storyboard */; };
 		A4D75EFF22CB87C700C21566 /* LearningCoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75EFE22CB87C700C21566 /* LearningCoreMLTests.swift */; };
 		A4D75F0A22CB87C700C21566 /* LearningCoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75F0922CB87C700C21566 /* LearningCoreMLUITests.swift */; };
+		A4D75F1822CB901500C21566 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75F1722CB901500C21566 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A4D75F0522CB87C700C21566 /* LearningCoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningCoreMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D75F0922CB87C700C21566 /* LearningCoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCoreMLUITests.swift; sourceTree = "<group>"; };
 		A4D75F0B22CB87C700C21566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D75F1722CB901500C21566 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A4D75EE922CB87C100C21566 /* AppDelegate.swift */,
 				A4D75EEB22CB87C100C21566 /* ViewController.swift */,
+				A4D75F1722CB901500C21566 /* CameraViewController.swift */,
 				A4D75EED22CB87C100C21566 /* Main.storyboard */,
 				A4D75EF022CB87C700C21566 /* Assets.xcassets */,
 				A4D75EF222CB87C700C21566 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				A4D75EEC22CB87C100C21566 /* ViewController.swift in Sources */,
 				A4D75EEA22CB87C100C21566 /* AppDelegate.swift in Sources */,
+				A4D75F1822CB901500C21566 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
